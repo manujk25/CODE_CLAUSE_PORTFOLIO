@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio Website Using HTML CSS ANd Javascript</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/00d3d3e239.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="" class="logo">MA<span>NUJ</span></a>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="contactme">Contact Us</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Manuj</span> Kumar.</h1>
+                    <p>Web Developer/Web Designer</p>
+            </div>
+        </div>   
+    </div>
+<!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./photo-removebg-preview.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p class="xyz">"Hi! I'm Manuj Kumar, and I'm a front-end web developer. I'm passionate about creating visually stunning and intuitive websites that provide seamless experiences to users.
+
+                        Currently, I'm pursuing a degree in Electronics and Communicationn engineering at JSS Academy of Technical Education,Noida. In addition to my studies, I've been actively involved in various personal projects that have helped me develop my skills in HTML, CSS, Tailwind CSS,JavaScript & ReactJS.
+                        
+                        My journey in web development began when I was in high school and built my first website. Since then, I've worked on a wide range of projects, from e-commerce platforms to Hospital websites.</p>
+                        <br>
+                        <br>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education </p>
+                        </div>
+                        <br>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br> Web App Development</li>
+                                <li><span>Robotics</span><br> Robotics component Assemble</li>
+                                <li><span>Web Designer</span><br> Basics Web Designing</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021-current</span><br> Web App Development</li>
+                                <li><span>2020-current</span><br>Works on Robotics Since 2021.</li>
+                                <li><span>March-23-April-2323</span><br>Training At Tech View.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-current</span><br>JSS Academy of Technical Education,Noida.</li>
+                                <li><span>2019</span><br>12th from M.J AHS,Lalganj.</li>
+                                <li><span>2017</span><br> 10th from M.J AHS,Lalganj.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title1">My&nbsp;<span>Services</span></h1>
+            <div class="services-list">
+                 <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <br>
+                    <p>"We provide tailored web design services that prioritize aesthetics, user experience, and functionality to elevate your brand and achieve your business goals."<p>
+                    <a href="#" class="btn0">Learn More</a>
+                 </div>
+                 <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Front-End Developer</h2>
+                    <br>
+                    <p>"Innovative front-end web development services to bring your designs to life with clean, efficient, and interactive code for seamless user experiences."</p>
+                    <a href="#" class="btn0">Learn More</a>
+                 </div>
+                 <div>
+                    <i class="fa-sharp fa-regular fa-robot"></i>
+                    <h2>Robotics</h2>
+                    <br>
+                    <p>"Cutting-edge robotics solutions for industrial, commercial, and research applications, leveraging advanced technologies to enhance productivity, safety, and innovation."</p>
+                    <a href="#" class="btn0">Learn More</a>
+                 </div>
+                 
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title1">My&nbsp;<span>Works</span></h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="./MK Restaurant .png" alt="">
+                    <div class="info">
+                        <h3>MK Restro</h3>
+                        <p>This website is used to order food from this Restaurant.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/CODE_CLAUSE_PORTFOLIO_WEBSITE/cara online Shopping.png" alt="">
+                    <div class="info">
+                        <h3>E-Commerce</h3>
+                        <p>Online store for buying and selling products and services via internet transactions.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="falhari clone.png" alt="">
+                    <div class="info">
+                        <h3>Falhari Clone</h3>
+                        <p>A fruit Selling Startup which is based on B2C and it is located in Bangalore and Delhi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+</a>
+<!-- Contact Me -->
+<a name="contactme">
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title1">Contact &nbsp;<span>Us</span></h1>
+            <br>
+            <br>
+            <div class="row contact-container">
+                <div class="col-left">   
+                <h4 class="details">Details</h4>
+                <p><strong>Address:</strong>Sector-62,Noida,Uttar Pradesh</p>
+               <p><strong>Phone:</strong>+9195553204XX/+9170811492XX</p>
+               
+
+               <br><br>
+                    <!-- <p> <i class="fa fa-envelope" style="font-size:32px;color:rgb(136, 72, 72)"></i> &nbsp;&nbsp;<span>manujkumaryadav2002@gmail.com</span></p> -->
+                    <a href="mailto:manujkumaryadav2002@gmail.com"><i class="fa fa-envelope" style="font-size:32px;color:rgb(136, 72, 72)"></i></a>
+                    &nbsp; &nbsp;
+                    <a href="https://www.linkedin.com/in/manuj-kr-yadav-289424222/" ><i class="fa fa-linkedin-square" style="font-size:32px;color:rgb(26, 86, 164)"></i></a>
+                    &nbsp;&nbsp;
+                    <a href="https://github.com/manujk25"><i class="fa fa-github" style="font-size:32px;color:rgb(58, 46, 46)"></i></a>
+                    &nbsp;&nbsp;
+                    <a href="https://twitter.com/ManujkumarYada5?t=ZP19HyOAH9kb5vxmWLmDzA&s=08" ><i class="fa-brands fa-square-twitter" style="font-size:32px;color:rgb(26, 86, 164)"></i></a>
+                    &nbsp;&nbsp;
+                    <a href="https://www.facebook.com/manujkumar.yadav.37" ><i class="fa-brands fa-facebook" style="font-size:32px;color:rgb(26, 86, 164)"></i></a><br>
+                    <a href="MANUJ RESUME.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="col-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &nbsp &copy;YADAV MANUJ</p>
+        </div>
+    </div>
+</a>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+</body>
+</html>
